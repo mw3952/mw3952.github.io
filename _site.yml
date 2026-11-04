@@ -1,0 +1,23 @@
+name: "mw3952"
+output_dir: "."
+navbar:
+  title: "Meher Walia"
+  left:
+    - text: "About"
+      href: index.html
+    - text: "Resume"
+      href: resume.html
+    - text: "Dashboard"
+      href: dashboard.html
+  right:
+    - text: "GitHub"
+      href: https://github.com/mw3952
+    - text: "LinkedIn"
+      href: https://www.linkedin.com/in/meherwalia/
+    - text: "Email"
+      href: mailto:mw3952@cumc.columbia.edu
+output:
+  html_document:
+    theme: flatly
+    toc: true
+    toc_float: true
