@@ -1,0 +1,102 @@
+---
+title: "NYC Restaurant Inspections"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+navbar:
+  - { title: "About", href: "index.html", align: left }
+  - { title: "Resume", href: "resume.html", align: left }
+  - { title: "GitHub", href: "https://github.com/mw3952", align: right }
+---
+
+```{r setup, include = FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+
+data("rest_inspec")
+
+set.seed(1)
+
+inspec_df = 
+  rest_inspec |> 
+  filter(
+    boro != "0",
+    grade %in% c("A", "B", "C"),
+    inspection_date > as.Date("2010-01-01"),
+    !is.na(score),
+    score >= 0) |> 
+  mutate(
+    boro = factor(boro),
+    grade = factor(grade, levels = c("A", "B", "C")),
+    inspection_date = as.Date(inspection_date),
+    cuisine = str_trunc(cuisine_description, 20))
+
+inspec_sample = sample_n(inspec_df, 5000)
+```
+
+Column {data-width=450}
+-----------------------------------------------------------------------
+
+### Inspection scores by borough
+
+```{r}
+inspec_sample |> 
+  mutate(boro = fct_reorder(boro, score)) |> 
+  plot_ly(
+    y = ~score, 
+    color = ~boro, 
+    type = "box", 
+    colors = "viridis") |> 
+  layout(
+    xaxis = list(title = "Borough"),
+    yaxis = list(title = "Inspection score"))
+```
+
+Column {data-width=550}
+-----------------------------------------------------------------------
+
+### Ten most frequently inspected cuisine types
+
+```{r}
+inspec_df |> 
+  count(cuisine) |> 
+  slice_max(n, n = 10) |> 
+  mutate(cuisine = fct_reorder(cuisine, n)) |> 
+  plot_ly(
+    x = ~cuisine, 
+    y = ~n, 
+    color = ~cuisine,
+    type = "bar", 
+    colors = "viridis") |> 
+  layout(
+    xaxis = list(title = ""),
+    yaxis = list(title = "Number of inspections"),
+    showlegend = FALSE)
+```
+
+### Median inspection score over time, by borough
+```{r}
+inspec_df |> 
+  mutate(quarter = floor_date(inspection_date, "quarter")) |> 
+  group_by(boro, quarter) |> 
+  summarize(
+    mean_score = mean(score),
+    n_inspections = n(),
+    .groups = "drop") |> 
+  filter(
+    n_inspections >= 100,
+    quarter < as.Date("2019-10-01")) |> 
+  plot_ly(
+    x = ~quarter, 
+    y = ~mean_score, 
+    color = ~boro,
+    type = "scatter", 
+    mode = "lines",
+    colors = "viridis") |> 
+  layout(
+    xaxis = list(title = "Inspection date"),
+    yaxis = list(title = "Mean inspection score"))
+```
