@@ -9,7 +9,7 @@ navbar:
       href: resume.html
     - text: "Dashboard"
       href: dashboard.html
-    right:
+  right:
     - text: "Email"
       icon: fa-envelope
       href: mailto:mw3952@cumc.columbia.edu
