@@ -55,8 +55,9 @@ to support operational and compliance reporting.
 ### University of Chicago Medicine - Chicago, IL
 **Clinical Research Assistant** | 01/2021 - 05/2021
 
-- Managed consent documentation and analyzed project research databases to
-support inpatient research operations and data integrity.
+- Managed consent documentation and research records supporting inpatient research operations.
+- Handled sensitive patient data in compliance with HIPAA, working within the project's research database to support analysis of collected data.
+- Supported patient interactions and day-to-day research operations on an inpatient medicine service.
 
 ### Vedic Lifecare Hospital - Lagos, Nigeria
 **General Medicine Intern** | 07/2020 - 08/2020
@@ -98,5 +99,9 @@ Hosted academic events and fundraisers for medical students.
 Python, R, SAS, SPSS, Github, Data Collection & Analysis, Financial & Data Modeling, Data Visualization, Microsoft Office Suite (Excel,
 Word, PowerPoint)
 
+**Clinical Systems:** 
+NexTech, ModMed EMA
+
 **Certifications:** 
-Basic Life Support: CPR and AED (American Heart Association), COVID-19 Contact Tracing (Johns Hopkins University), Certified Dermatology Tech (CDT), Vital Signs: Understanding what the body is telling us (University of Pennsylvania)
+CITI Human Subjects Research Training, HIPAA Compliance
+Training, Basic Life Support: CPR and AED (American Heart Association), COVID-19 Contact Tracing (Johns Hopkins University), Certified Dermatology Tech (CDT), Vital Signs: Understanding what the body is telling us (University of Pennsylvania)
