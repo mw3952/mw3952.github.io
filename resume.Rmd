@@ -12,22 +12,22 @@ New York, NY • [mw3952@cumc.columbia.edu](mailto:mw3952@cumc.columbia.edu) •
 
 ## Education
 
-**Columbia University, Mailman School of Public Health** — New York, NY  
-*Master of Public Health, Epidemiology* — Expected May 2027  
+**Columbia University, Mailman School of Public Health** - New York, NY  
+*Master of Public Health, Epidemiology* - Expected May 2027  
 Certificate in Applied Biostatistics & Public Health Data Science
 
-**University of Illinois at Chicago** — Chicago, IL  
+**University of Illinois at Chicago** - Chicago, IL  
 *B.S. in Biological Sciences*, Minors in Chemistry & Psychology  
-08/2018 – 05/2022
+08/2018 - 05/2022
 
-**Tulane University School of Public Health and Tropical Medicine** — New Orleans, LA  
+**Tulane University School of Public Health and Tropical Medicine** - New Orleans, LA  
 *Public Health Certificate*  
-06/2024 – 12/2024
+06/2024 - 12/2024
 
 ## Work Experience
 
-### Beneficial Computing — New York, NY
-**Consultant Intern** | 06/2026 – 08/2026
+### Beneficial Computing - New York, NY
+**Consultant Intern** | 06/2026 - 08/2026
 
 - Owned a research workstream end-to-end, from first-principles problem framing
 through analysis and final deliverable, moving fast against a fixed timeline to
@@ -42,8 +42,8 @@ program design and resource allocation.
 Robin Hood Foundation, New York Health Foundation, GSA TTS) to align on strategy
 and move initiatives from concept to delivery.
 
-### Forefront Dermatology — Chicago, IL
-**Lead Medical Assistant** | 07/2022 – 05/2025
+### Forefront Dermatology - Chicago, IL
+**Lead Medical Assistant** | 07/2022 - 05/2025
 
 - Took ownership of daily operations in a high-volume practice, identifying
 process inefficiencies and improving patient throughput and fulfillment accuracy
@@ -51,32 +51,32 @@ under tight deadlines.
 - Maintained data accuracy and real-time record integrity across two databases
 to support operational and compliance reporting.
 
-### University of Chicago Medicine — Chicago, IL
-**Clinical Research Assistant** | 01/2021 – 05/2021
+### University of Chicago Medicine - Chicago, IL
+**Clinical Research Assistant** | 01/2021 - 05/2021
 
 - Managed consent documentation and analyzed project research databases to
 support inpatient research operations and data integrity.
 
 ## Leadership Experience
 
-**Women's Health Initiative (WHI)** — Event Coordinator | 09/2021 – 05/2022  
+**Women's Health Initiative (WHI)** - Event Coordinator | 09/2021 - 05/2022  
 Organized Q&A sessions with gynecologists and coordinated period kit distribution.
 
-**VAW Global Health Alliances** — Fundraising Chair | 08/2021 – 05/2022  
+**VAW Global Health Alliances** - Fundraising Chair | 08/2021 - 05/2022  
 Raised funds and assisted with vitals and patient documentation at medical camps
 in Panama.
 
-**Alpha Sigma Tau Sorority** — Director of Sisterhood & Event Planning | 09/2020 – 05/2022  
+**Alpha Sigma Tau Sorority** - Director of Sisterhood & Event Planning | 09/2020 - 05/2022  
 Partnered with "Support Our Girls" on events and team-building workshops.
 
-**Association of Pre-Medical Students (APMS)** — Social Media Chair | 06/2020 – 05/2022  
+**Association of Pre-Medical Students (APMS)** - Social Media Chair | 06/2020 - 05/2022  
 Hosted academic events and fundraisers for medical students.
 
 ## Skills & Certifications
 
 **Programming & Analysis:** 
-Python, R, SAS, SPSS, Data Collection & Analysis, Financial & Data Modeling, Data Visualization, Microsoft Office Suite (Excel,
+Python, R, SAS, SPSS, Github, Data Collection & Analysis, Financial & Data Modeling, Data Visualization, Microsoft Office Suite (Excel,
 Word, PowerPoint)
 
 **Certifications:** 
-Basic Life Support: CPR and AED (American Heart Association), COVID-19 Contact Tracing (Johns Hopkins University)
+Basic Life Support: CPR and AED (American Heart Association), COVID-19 Contact Tracing (Johns Hopkins University), Certified Dermatology Tech (CDT), Vital Signs: Understanding what the body is telling us (University of Pennsylvania)

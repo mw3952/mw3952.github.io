@@ -9,15 +9,18 @@ navbar:
       href: resume.html
     - text: "Dashboard"
       href: dashboard.html
-  right:
+    right:
+    - text: "Email"
+      icon: fa-envelope
+      href: mailto:mw3952@cumc.columbia.edu
     - text: "GitHub"
+      icon: fa-github
       href: https://github.com/mw3952
     - text: "LinkedIn"
+      icon: fa-linkedin
       href: https://www.linkedin.com/in/meherwalia/
-    - text: "Email"
-      href: mailto:mw3952@cumc.columbia.edu
 output:
   html_document:
-    theme: flatly
+    theme: cosmo
     toc: true
     toc_float: true
